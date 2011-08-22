@@ -1,0 +1,3 @@
+In the plotxy.codeproj/project.pbxproj the following edits were needed:
+1:Project > $PROJECT_NAME > Search Paths > Header Search Paths: I added "/usr/X11/include/"
+2: TARGETS > $PROJECT_NAME > Link Binary With Libraries: I added libpng.3.dylib
